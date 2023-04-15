@@ -87,82 +87,82 @@ Los comentarios sirven para dejar notas para otros desarrolladores, o tu yo del 
 
 ### Texts
 
-> (<p></p>) Esta etiqueta sirve para definir parrafos.
+> (p) Esta etiqueta sirve para definir parrafos.
 ````
 <p>Hola mundo</p>
 ````
 
-> (<em></em>) Esta etiqueta sirve para dar enfasis en el texto que envuelve semanticamente. Pone en cursiva o italica la letra.
+> (em) Esta etiqueta sirve para dar enfasis en el texto que envuelve semanticamente. Pone en cursiva o italica la letra.
 ````
 <em>Da enfasis al texto</em>
 ````
 
-> (<i></i>) Esta etiqueta sirve para transformar en cursiva o italica la letra. Pero sin la semantica que otorga la etiqueta anterior.
+> (i) Esta etiqueta sirve para transformar en cursiva o italica la letra. Pero sin la semantica que otorga la etiqueta anterior.
 ````
 <i>Texto en cursiva o italica</i>
 ````
 
-> (<span></span>) Esta etiqueta sirve para darle estilos a un elemento, o como contenedor de elementos (inline) o en linea, lo que significa que no hacen salto de linea.
+> (span) Esta etiqueta sirve para darle estilos a un elemento, o como contenedor de elementos (inline) o en linea, lo que significa que no hacen salto de linea.
 ````
 <span>Contenido</span>
 ````
 
-> (<mark></mark>) Esta etiqueta sirve para resaltar el texto por su relevancia.
+> (mark) Esta etiqueta sirve para resaltar el texto por su relevancia.
 ````
 <mark>Texto resaltado</mark>
 ````
 
-> (<b></b>) Esta etiqueta no tiene significado semantico. Solo formatea el texto en negritas.
+> (b) Esta etiqueta no tiene significado semantico. Solo formatea el texto en negritas.
 ````
 <b>Texto en negrita</b>
 ````
 
-> (<strong></strong>) Esta etiqueta formatea el texto en negritas y a su vez le da importancia. Se puede utilizar para incorporar palabras claves de la pagina.
+> (strong) Esta etiqueta formatea el texto en negritas y a su vez le da importancia. Se puede utilizar para incorporar palabras claves de la pagina.
 ````
 <strong>Texto en negrita y con importancia</strong>
 ````
 
-> (<u></u>) Esta etiqueta nos sirve para subrayar el texto.
+> (u) Esta etiqueta nos sirve para subrayar el texto.
 ````
 <u>Texto subrayado</u>
 ````
 
-> (<small></small>) Esta etiqueta que tiene importancia semantica, define que un texto no es tan relevante, y para hacerlo, hace el texto mas pequeño.
+> (small) Esta etiqueta que tiene importancia semantica, define que un texto no es tan relevante, y para hacerlo, hace el texto mas pequeño.
 ````
 <small>Texto sin mucha importancia y mas pequeño</small>
 ````
 
-> (<s></s>) Esta etiqueta define que el texto es irrelevante, y lo tacha
+> (s) Esta etiqueta define que el texto es irrelevante, y lo tacha
 ````
 <s>Texto irrelevante y tachado</s>
 ````
 
-> (<cite></cite>) Esta etiqueta nos sirve para citar un proyecto crativo (Libro, pelicula, etc), y el contenido se pondra en letra cursiva o italica. Esta etiqueta tiene importancia semantica.
+> (cite) Esta etiqueta nos sirve para citar un proyecto crativo (Libro, pelicula, etc), y el contenido se pondra en letra cursiva o italica. Esta etiqueta tiene importancia semantica.
 ````
 <cite>proyecto crativo, y el contenido se pondra en letra cursiva o italica</cite>
 ````
 
-> (<sup></sup>) Esta etiqueta representa un superindice. Un numero al cuadrado, o al cubo
+> (sup) Esta etiqueta representa un superindice. Un numero al cuadrado, o al cubo
 ````
 Representa un superindice X<sup>4</sup>
 ````
-> (<sub></sub>) Esta etiqueta representa un subindice. Un numero al cuadrado, o al cubo
+> (sub) Esta etiqueta representa un subindice. Un numero al cuadrado, o al cubo
 ````
 Representa un subindice X<sub>3</sub>
 ````
 
-> (<br>) Esta etiqueta genera un salto de line y es (self-closing)
+> (br) Esta etiqueta genera un salto de line y es (self-closing)
 ````
 <p> Genera un salto de <br> de linea y es (selft-closing)</p>
 ````
 
-> (<abbr></abbr>) Esta etiqueta Sirve para abreviar palaras
+> (abbr) Esta etiqueta Sirve para abreviar palaras
 ````
 <abbr title="Kilometros">KM</abbr>
 ````
 
 ### links
-> (<a>) Esta etiqueta para crear enlaces. En su atributo (href) escribimos la dirección a la cual nos dirige, y el contenido de la etiqueta es un texto o contenido representativo. Puede contener texto, imagenes y otras etiquetas HTML.
+> (a) Esta etiqueta para crear enlaces. En su atributo (href) escribimos la dirección a la cual nos dirige, y el contenido de la etiqueta es un texto o contenido representativo. Puede contener texto, imagenes y otras etiquetas HTML.
 ````
 <a href="google.com">Ir a Google</a>
 ````
@@ -178,7 +178,7 @@ Representa un subindice X<sub>3</sub>
 ````
 
 ### images
-> (<img>) Es la etiqueta que utilizamos para adjuntar imagenes en los documentos HTML.
+> (img) Es la etiqueta que utilizamos para adjuntar imagenes en los documentos HTML.
 > Esta etiqueta por defecto trae dos atributos.
 > (src) = al source o lugar donde se almacena la imagen.
 > (alt) = a un texto alternativo por si la imagen no se encuentra o no puede cargar y tambien por el CEO para posicionar la imagen y la web.
@@ -189,7 +189,7 @@ Representa un subindice X<sub>3</sub>
 ### content
 Las etiquetas de contenido son usadas para agrupar contenido dentro de ellas, tienen importancia semántica y pueden definir secciones, pies de página, menus de navegación.
 
-> (<nav></nav>) Esta etiqueta define que es una sección de navegación
+> (nav) Esta etiqueta define que es una sección de navegación
 ````
 <nav>
     <a href="./">Inicio</a>
@@ -198,7 +198,7 @@ Las etiquetas de contenido son usadas para agrupar contenido dentro de ellas, ti
 </nav>
 ````
 
-> (<section></section>) Esta etiqueta define una seccion en un documento HTML
+> (section) Esta etiqueta define una seccion en un documento HTML
 ````
 <section>
     <h2>Somos nosotros</h2>
@@ -206,7 +206,7 @@ Las etiquetas de contenido son usadas para agrupar contenido dentro de ellas, ti
 </section>
 ````
 
-> (<div></div>) Esta etiqueta sirve para agrupar contenido que den un sentido, pero no es semantico 
+> (div) Esta etiqueta sirve para agrupar contenido que den un sentido, pero no es semantico 
 ````
 <div>
     <h2>Somos nosotros</h2>
@@ -214,7 +214,7 @@ Las etiquetas de contenido son usadas para agrupar contenido dentro de ellas, ti
 </div>
 ````
 
-> (<header></header>) Esta etiqueta define un encabezado en HTML puede ser de secciones o de la pagina web
+> (header) Esta etiqueta define un encabezado en HTML puede ser de secciones o de la pagina web
 ````
 <header>
     <nav>
@@ -225,7 +225,7 @@ Las etiquetas de contenido son usadas para agrupar contenido dentro de ellas, ti
 </header>
 ````
 
-> (<main></main>) Esta etiqueta define el contenido principal del documento HTML al igual que el h1 solo debe haber 1 por documento.
+> (main) Esta etiqueta define el contenido principal del documento HTML al igual que el h1 solo debe haber 1 por documento.
 ````
 <main>
     <h2>Somos nosotros</h2>
@@ -233,7 +233,7 @@ Las etiquetas de contenido son usadas para agrupar contenido dentro de ellas, ti
 </main>
 ````
 
-> (<footer></footer>) Esta etiqueta define el pie de una sección o de una página.
+> (footer) Esta etiqueta define el pie de una sección o de una página.
 ````
 <footer>
     <h2>Copyright</h2>
@@ -241,7 +241,7 @@ Las etiquetas de contenido son usadas para agrupar contenido dentro de ellas, ti
 </footer>
 ````
 
-> (<aside></aside>) Esta etiqueta define una sección relacionada con el contenido del documento HTML (barra lateral)
+> (aside) Esta etiqueta define una sección relacionada con el contenido del documento HTML (barra lateral)
 ````
 <aside>
     <h2>Nuestros Articulos</h2>
@@ -252,7 +252,7 @@ Las etiquetas de contenido son usadas para agrupar contenido dentro de ellas, ti
 </aside>
 ````
 
-> (<article></articke>) Esta etiqueta define una seccion independiente del contenido, puede existir por si misma (articulo blog, rvista, periodico, etc)
+> (article) Esta etiqueta define una seccion independiente del contenido, puede existir por si misma (articulo blog, rvista, periodico, etc)
 ````
 <article>
     <h2>Casa en tucuman</h2>
@@ -346,11 +346,17 @@ Para usar tablas en HTML se utiliza la etiqueta <table></table>
 
 
 ## Formularios
-Para definir un formulario se utiliza la etiqueta <form action=""></form> por defecto este viene con el atributo (action) este se utiliza para indicar la url en donde se enviara la información que este formulario contenga.
+Para definir un formulario se utiliza la etiqueta (form) por defecto este viene con el atributo (action) este se utiliza para indicar la url en donde se enviara la información que este formulario contenga.
 
-Dentro de este se utilizan otras etiquetas HTML para obtener los datos. Como las etiqueta <input>, <label>, <select>, <textarea>
+````
+    <form action=""></form>
+````
+
+Dentro de este se utilizan otras etiquetas HTML para obtener los datos. Como las etiqueta (input), (label), (select), (textarea)
 
 > Ejemplo input
+
+
 ````
 <input type="text" name="" id="">
 <input type="email" id="email" required>
@@ -373,7 +379,10 @@ Dentro de este se utilizan otras etiquetas HTML para obtener los datos. Como las
 <!-- (maxlength) Atributo para indicar la cantidad maxima de caracteres permitidos -->
 <!-- (minlength) Atributo para indicar la cantidad minima de caracteres -->
 ````
+
 > Ejemplo label
+
+
 ````
 <label for="nombre">Nombre</label>
 <!-- Sirve para identificar el un input -->
@@ -381,6 +390,7 @@ Dentro de este se utilizan otras etiquetas HTML para obtener los datos. Como las
 ````
 
 > Ejemplo select
+
 ````
 <select>
     <option value="valor">Mexico</option>
@@ -390,7 +400,7 @@ Dentro de este se utilizan otras etiquetas HTML para obtener los datos. Como las
 ````
 
 > Ejemplo textarea
+
 ````
 <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
 ````
-
